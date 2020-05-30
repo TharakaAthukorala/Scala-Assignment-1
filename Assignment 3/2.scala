@@ -21,11 +21,13 @@ def prime(num: Int): Any = {
 }
 //prime(7)
 
-def printPrime(n: Int): Int = { 
+def printPrime(n: Int): Unit = { 
     for(i <- 2 to n){
-    	if (prime(i) == prime(7)){
-    		println(i)
+    	if (prime(i) == n){
+    		print(i)
+
     	}
+      //println(i)
     } 
 } 
 
